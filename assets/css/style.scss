@@ -1,0 +1,44 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1,h2,h3,h4,h5{
+    color:var(--accent) !important;
+    font-weight:600 !important;
+}
+h1{
+    font-size:45px !important;
+}
+h2{
+    font-size:30px !important;
+    border-radius: 5px;
+    margin-top:80px !important;
+    font-weight:600 !important;
+    padding:10px !important;
+    padding-left:30px !important;
+    border-left: 5px solid var(--accent) !important;
+}
+#progressBar {
+    top: 0px;
+    height: 65px;
+    background: linear-gradient(to right, var(--accentdim1), var(--accent));
+    width: 0%;
+    border-radius: 0px;
+    z-index: 10;
+}
+code{
+    user-select: text !important;
+}
+.pushDown200{
+    margin-top: 200px;
+}
+.main-content pre{
+    background-color: var(--accentdim2) !important;
+    border: solid 1px var(--accentdim0) !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
